@@ -1,28 +1,20 @@
-*{
+* {
     background-color: rgb(59, 60, 60);
     color: white;
     padding: 0px;
     margin: 0px;
 }
 
-.header-div{
+.header-div {
     width: 100%;
     height: 70px;
     font-size: 60px;
     position: fixed;
 }
 
-div{
+div {
     font-size: 60px;
     display: inline;
-}
-
-.elements1{
-    opacity: 0;
-}
-
-.:hover ~ left-hover{
-    opacity: 100;
 }
 
 * {
@@ -39,4 +31,18 @@ div{
 
 ul {
     list-style-type: none;
+}
+
+.cont-div{
+    align-items: center;
+    height: 1000px;
+    width: 30%;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
 }

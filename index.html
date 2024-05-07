@@ -10,60 +10,28 @@
 
 <body>
     <div align="center" class="header-div">
-        <div class="cont-div">
+        <div class="cont-div pizza-cont">
             <ul class="left headers" align="left">
-                <li class="left-li left-hover">LEFT</li>
-                <li class="left-li elements1">789</li>
-                <li class="left-li elements1">789</li>
-                <li class="left-li elements1">789</li>
+                <li class="left-li" align="center"><a href="C:\webskill\my\pizza.html">PIZZA</a>
+                </li>
+                <li><img src="https://hips.hearstapps.com/hmg-prod/images/classic-cheese-pizza-recipe-2-64429a0cb408b.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*"
+                        alt=""></li>
             </ul>
         </div>
         <div class="cont-div">
             <ul class="head headers" align="center">
-                <li class="center-li center-hover">center</li>
-                <li class="center-li elements2 margin1">456</li>
-                <li class="center-li elements2">456</li>
-                <li class="center-li elements2">456</li>
+                <li class="center-li"><a href="C:\webskill\my\sushi.html">SUSHI</a></li>
+                <li><img src="https://online-sushi.com.ua/image/cache/catalog/products/best-810x450.png" alt=""></li>
             </ul>
         </div>
         <div class="cont-div">
             <ul class="right headers" align="right">
-                <li class="right-li right-hover">right</li>
-                <li class="right-li elements3 margin1">123</li>
-                <li class="right-li elements3">123</li>
-                <li class="right-li elements3">123</li>
+                <li class="right-li" align="center"><a href="C:\webskill\my\burger.html">BURGER</a></li>
+                <li><img src="https://www.eatingwell.com/thmb/UY5N-tQKYgA91XJBwiolc_1nbJ0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3757723-7c4020ccc47240138323b9bc5b730e8d.jpg"
+                        alt=""></li>
             </ul>
         </div>
     </div>
-
-    <script defer>
-        function mouseover() {
-            console.log("mouseover");
-
-            let elements = document.getElementsByClassName("elements")
-
-            for (let i = 0; i < elements.length; i++) {
-                elements[i].style.opacity = 1
-            }
-        }
-        function mouseleave(params) {
-            console.log("mouseleave");
-            let elements = document.getElementsByClassName("elements")
-            for (let i = 0; i < elements.length; i++) {
-                elements[i].style.opacity = 0
-            }
-        }
-
-        let left_hover = document.getElementById("left-hover")
-
-        left_hover.addEventListener("mouseover", mouseover);
-        left_hover.addEventListener("mouseleave", mouseleave);
-
-    </script>
-
-    <style>
-        
-    </style>
 </body>
 
 </html>
