@@ -26,7 +26,7 @@ div {
 .cont-div {
     display: inline-block;
     height: 400px;
-    width: 30%;
+    width: 300px;
 }
 
 ul {
@@ -41,8 +41,37 @@ ul {
 
 img{
     width: 100%;
+    height: 260px;
 }
 
 a{
     text-decoration: none;
+}
+
+h1{
+    font-size: 70px;
+}
+
+img{
+    width: 460px;
+    height: 260px;
+    overflow: hidden;
+    transition: transform 0.25s;
+}
+
+.anim1:hover img {
+    transform: scale(1.1)
+}
+
+@media screen and(max-width: 600px){
+    body{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
 }
