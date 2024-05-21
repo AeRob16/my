@@ -2,6 +2,12 @@ h1{
     font-size: 70px;
 }
 
+body{
+    background-image: url(https://img.freepik.com/free-vector/frame-on-pastel-frame_53876-93719.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 img{
     width: 50%;
 }
